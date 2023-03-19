@@ -40,10 +40,10 @@ body {
 	gap: 25px;
 }
 
-button {
+.hero-button {
 	background-color: #3882F6;
 	color: white;
-	padding: 10px 20px;
+	padding: 8px 16px;
 	width: 125px;
 	margin-top: 10px;
 	border-radius: 10px;
@@ -137,3 +137,43 @@ img {
 	align-self: flex-end;
 }
 
+.signUp-sect {
+	display: flex;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+}
+
+.signUp-content {
+	background-color: #3882F6;
+	display: flex;
+	align-items: center;
+	gap: 160px;
+	color: white;
+	padding: 60px 120px;
+	border-radius: 10px;
+}
+
+.signUp-text {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.signUp-button {
+	background-color: #3882F6;
+	color: white;
+	border-color: white;
+	padding: 8px 16px;
+	width: 125px;
+	border-radius: 10px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.footer {
+	background-color: #1f2937;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 50px;
+}
