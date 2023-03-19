@@ -110,3 +110,30 @@ img {
 	gap: 15px;
 	font-size: 20px;
 }
+
+.quote-sect {
+	background-color: #E5E7EB;
+	display: flex;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+}
+
+.quote-container {
+	display: flex;
+	flex-direction: column;
+	max-width: 40%;
+}
+
+.quote {
+	font-size: 36px;
+	font-style: italic;
+	color: #1F2937;
+}
+
+.author {
+	font-size: 24px;
+	font-weight: 700;
+	align-self: flex-end;
+}
+
